@@ -2,10 +2,8 @@
 
 ## Description
 
-Example Project to Show How to Document Your NestJS APIs with Swagger.
-
-I created this project for the topic titled 'How to Document Your NestJS APIs with Swagger' which I explained on my blog.
-
+If you want complete guide for swagger go this website 
+jaza K Allah
 Medium Post URL: <https://medium.com/@metesayan/42bdefd13698>
 
 ## Installation
