@@ -19,7 +19,7 @@ import {
 } from '@nestjs/swagger';
 import { Demo } from './entities/demo.entity';
 
-@ApiTags('Demo')
+@ApiTags('Swager Makes Life Easier')
 @Controller('demo')
 export class DemoController {
   constructor(private readonly demoService: DemoService) {}
@@ -30,6 +30,7 @@ export class DemoController {
     type: Demo,
     isArray: false,
   })
+  
   @ApiBadRequestResponse({ description: 'Bad Request' })
   create(@Body() createDemoDto: CreateDemoDto) {
     return this.demoService.create(createDemoDto);
